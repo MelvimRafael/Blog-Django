@@ -31,11 +31,11 @@
         <div class="col-xl"></div>
     </div>
 
-    {% if comentario %}
+    {% if comentarios %}
     <div class="row pt-5">
         <div class="col-xl"></div>
         <div class="col-xl-8">
-            <h2 class="my-3">Comentários ({{ comentario.count }})</h2>
+            <h2 class="my-3">Comentários ({{ comentarios.count }})</h2>
 
             {% for comentario in comentarios%}
             <h5 class="mb-2 mt-5">{{ comentario.nome_comentario}} disse:</h5>
